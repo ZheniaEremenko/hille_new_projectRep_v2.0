@@ -6,6 +6,7 @@ import { WikiLanguages } from './Objects/FourTestObject';
 import { FiveTestObject } from './Objects/FiveTestObject'
 
 
+
 test('Login > Find the movie > Check movies`s title ', async ({ page }) => {
     const firsttest = new UaKino(page);
     await firsttest.goto();
